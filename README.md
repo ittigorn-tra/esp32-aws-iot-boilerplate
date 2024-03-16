@@ -37,4 +37,7 @@ mip.install('logging')
 ```
 
 # Testing
-Please go to AWS IoT Console and use "MQTT Test Client" to publish a message to the topic you specified in your `secret_configs.py` file.
+Run `demo.py` file. then go to AWS IoT Console and use "MQTT Test Client" to publish a message to the topic you specified in your `secret_configs.py` file.
+
+# Ready to go live?
+Any code in `boot.py` and `main.py` file will run automatically after boot up. You can put your code in these files and reboot your device.

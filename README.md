@@ -1,8 +1,14 @@
 # ESP32 AWS IoT Boilerplate
 A project built for enabling ESP32 with Micropython to connect to AWS Iot Core.
 
-# Setting up for the first time
+# Getting ready
+## Choose your IDE
+[Thonny IDE](https://thonny.org/) is highly recommended for beginners. 
 
+## Flashing micropython onto your device
+You can download Micropython from [Micropython download page](https://micropython.org/download/) then flash your device with it.
+
+# Setting up for the first time
 ## Create and populate necessary files not included in this repo
 Please make sure you have created all the files below brefore attempting to run the code.
 

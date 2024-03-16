@@ -9,6 +9,9 @@ A project built for enabling ESP32 with Micropython to connect to AWS Iot Core.
 You can download Micropython from [Micropython download page](https://micropython.org/download/) then flash your device with it.
 
 # Setting up for the first time
+## Copy or create files and derectories to your device
+Please make sure you have copied or created all files and directories in this project to your device, including empty directories such as `runtime_logs`
+
 ## Create and populate necessary files not included in this repo
 Please make sure you have created all the files below brefore attempting to run the code.
 
@@ -38,6 +41,9 @@ mip.install('logging')
 
 # Testing
 Run `demo.py` file. then go to AWS IoT Console and use "MQTT Test Client" to publish a message to the topic you specified in your `secret_configs.py` file.
+
+# Inspecting runtime logs
+Runtime logs can be inspected through debug console of your IDE. Additionally, any errors will be logged to a file in `runtime_logs` directory.
 
 # Ready to go live?
 Any code in `boot.py` and `main.py` file will run automatically after boot up. You can put your code in these files and reboot your device.

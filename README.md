@@ -35,7 +35,6 @@ from wlan import Wlan
 
 Wlan(ssid='xxx', pwd='xxx').connect()
 
-mip.install('umqtt.simple')
 mip.install('logging')
 ```
 

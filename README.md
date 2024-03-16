@@ -8,8 +8,8 @@ Please make sure you have created all the files below brefore attempting to run 
 
 ### Certificate and private key file
 ```
-private.pem.key
-cert.pem.crt
+creds/private.pem.key
+creds/cert.pem.crt
 ```
 
 ### Secret configs

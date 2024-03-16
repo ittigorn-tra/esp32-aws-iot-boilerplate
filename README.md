@@ -35,3 +35,6 @@ Wlan(ssid='xxx', pwd='xxx').connect()
 mip.install('umqtt.simple')
 mip.install('logging')
 ```
+
+# Testing
+Please go to AWS IoT Console and use "MQTT Test Client" to publish a message to the topic you specified in your `secret_configs.py` file.
